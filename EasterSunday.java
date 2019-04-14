@@ -10,7 +10,7 @@ public class EasterSunday {
 		//Define Variables:
 		String year1 = userInputYear.nextLine();
 		int year = Integer.parseInt(year1);
-		int a = year % 19;
+		int a = year % 18;
 		int b = year / 100;
 		int c = year % 100;
 		int d = b / 4;
